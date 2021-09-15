@@ -11,7 +11,7 @@ module.exports = (Discord, client, message) =>{
         command.execute(client,message,args,cmd,Discord);
     }
     catch(err){
-        message.reply("There was an error trying to execute this command!");
+        message.reply("There was an error trying to execute this command! Note: only youtube search and youtube url are working || -queue (viewing the queue) is still in development and Using spotify links is still unavailable!! Available commands: -play -skip -stop");
         console.log(err);
     }
 }
